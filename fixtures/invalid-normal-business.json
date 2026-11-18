@@ -1,0 +1,32 @@
+[
+  {
+    "name": "握手机构不符",
+    "changes": {
+      "principal": "org-B"
+    }
+  },
+  {
+    "name": "凭据不符",
+    "changes": {
+      "credentialId": "B-old"
+    }
+  },
+  {
+    "name": "凭据过期",
+    "changes": {
+      "validUntil": 0
+    }
+  },
+  {
+    "name": "分块不完整",
+    "changes": {
+      "parts": [
+        {
+          "part": 1,
+          "total": 2,
+          "content": "一半"
+        }
+      ]
+    }
+  }
+]
