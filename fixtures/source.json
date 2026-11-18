@@ -24,6 +24,36 @@
           }
         }
       ]
+    },
+    {
+      "method": "POST",
+      "path": "/connections",
+      "responses": [
+        {
+          "body": {
+            "credentialId": "A-old",
+            "connectionId": "conn-1",
+            "principal": "org-A",
+            "scope": [
+              "public"
+            ],
+            "validUntil": 100
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/credentials/A-old/status",
+      "responses": [
+        {
+          "body": {
+            "credentialId": "A-old",
+            "status": "active",
+            "validUntil": 100
+          }
+        }
+      ]
     }
   ]
 }
