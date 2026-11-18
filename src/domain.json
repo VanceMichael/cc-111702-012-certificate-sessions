@@ -1,0 +1,13 @@
+{
+  "initial": {
+    "organizations": {
+      "org-A": "A-old"
+    },
+    "connections": {},
+    "deliveries": {}
+  },
+  "route": {
+    "method": "GET",
+    "path": "/connections/conn-1/data"
+  }
+}
